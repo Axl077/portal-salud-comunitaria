@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* Paleta del mockup (Actividad 9) */
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+    --color-primario: #0284C7;
+    --color-primario-oscuro: #0369A1;
+    --color-secundario: #0D9488;
+    --color-alerta: #F97316;
+    --color-fondo: #F8FAFC;
+    --color-borde: #CBD5E1;
+    --color-texto: #1E293B;
+    --color-pie: #0F172A;
+}
